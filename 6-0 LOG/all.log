@@ -1,0 +1,5 @@
+[2019-01-02 17:55:26,772] DEBUG - this is a debug message
+[2019-01-02 17:55:26,773] INFO - this is a info message
+[2019-01-02 17:55:26,773] WARNING - this is a warning message
+[2019-01-02 17:55:26,773] ERROR - this is a error message
+[2019-01-02 17:55:26,773] CRITICAL - this is a critical message

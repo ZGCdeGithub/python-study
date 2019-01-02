@@ -1,0 +1,2 @@
+[2019-01-02 17:55:26,773] ERROR - <ipython-input-1-ddf410a2db91>[:24] - this is a error message
+[2019-01-02 17:55:26,773] CRITICAL - <ipython-input-1-ddf410a2db91>[:25] - this is a critical message
