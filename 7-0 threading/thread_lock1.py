@@ -3,18 +3,28 @@ import threading
 
 sumI = 0
 loopSum = 1000000
+# 生成一个锁
+lock = threading.Lock()
 
 
 def add_sum():
-    global sumI, loopSum
+    global sumI, loopSum, lock
     for i in range(0, loopSum):
+        # 加锁
+        lock.acquire()
         sumI += 1
+        # 释放锁
+        lock.release()
 
 
 def reduce_sum():
-    global sumI, loopSum
+    global sumI, loopSum, lock
     for i in range(0, loopSum):
+        # 加锁
+        lock.acquire()
         sumI -= 1
+        # 释放锁
+        lock.release()
 
 
 if __name__ == '__main__':
