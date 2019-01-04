@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<root time="2019-01-04 17:10:11" version="1.0">
+		<Studen>
+			<Name>jack</Name>
+			<Age>18</Age>
+			<Sex>1</Sex>
+		</Studen>
+		<Studen>
+			<Name>mick</Name>
+			<Age>16</Age>
+			<Sex>2</Sex>
+		</Studen>
+		<Studen>
+			<Name>tony</Name>
+			<Age>19</Age>
+			<Sex>1</Sex>
+		</Studen>
+	</root>
