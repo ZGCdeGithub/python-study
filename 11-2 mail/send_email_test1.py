@@ -17,8 +17,8 @@ to_ = '316513623@qq.com'
 msg['From'] = Header('Python <{0}>'.format(from_), 'utf-8')
 msg['To'] = Header('myfriend <{0}>'.format(to_), 'utf-8')
 msg['Subject'] = Header('一份问候', 'utf-8')
-print(msg)
-exit(-1)
+# print(msg)
+# exit(-1)
 
 smtp_server = 'smtp.126.com'
 
