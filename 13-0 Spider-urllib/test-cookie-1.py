@@ -41,3 +41,14 @@ if __name__ == '__main__':
     get_home(url2)
     login(url)
     get_home(url2)
+    print('*'*50)
+    print(my_cookie)
+    print('-'*50)
+    for item in my_cookie:
+        print('  ', '-' * 20)
+        print(type(item))
+        print(item)
+        for i in dir(item):
+            print('    ', i)
+
+
