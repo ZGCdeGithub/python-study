@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <class name="class1">
+        <teacher>张老师</teacher>
+        <student>张三</student>
+        <student>李四</student>
+        <student>王五</student>
+    </class>
+    <class name="class2">
+        <teacher>Mr wang</teacher>
+        <student>jack</student>
+        <student>marry</student>
+        <student>jone</student>
+    </class>
+</root>
